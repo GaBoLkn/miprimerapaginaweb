@@ -11,6 +11,10 @@ body{
     padding: 10px;
 }
 
+.greeting{
+  text-align: center;
+}
+
 .h1-p {
   font-size: 25px;
   padding-left: 20px;
