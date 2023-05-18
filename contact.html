@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+          <a href="index.html" class="brand"><h2>Mi página web</h2></a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+
+    <main class="contenedor-madre">
+        <h1 class="bienvenida">Contacto</h1>
+        <p class="h1-p">¡Contáctanos para cualquier consulta o solicitud de información!</p>
+        <form id="MyForm">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Nombre" id="nombre" name="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Apellido" id="apellido" name="apellido">
+
+            <label for="email">Correo Electronico: </label>
+            <input type="email" placeholder="Email" id="email" name="email" required>
+
+            <button class="sendButon" type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <h3>Esta es mi primera pagina web espero que te guste.</h3>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

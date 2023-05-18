@@ -1,0 +1,14 @@
+<div class="bienvenida">
+            <h1>Bienvenido a mi pagina</h1>
+        </div>
+        <div class="contenido">
+            <div class="columnas">
+                <h1>Presentacion</h1>
+               <p>Soy Gabriel Sánchez, ¡y esta es mi primera página web!</p>
+               <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales, a lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+            </div>
+            <div class="columnas">
+                <h1>Lo que se viene...</h1>
+                <p>Durante este curso voy a aprender CSS, HTML y JavaScript. Estos lenguajes me ayudarán a crear una base solida en el desarrollo web front-end</p>
+            </div>
+        </div>
