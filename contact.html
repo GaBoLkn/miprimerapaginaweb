@@ -18,22 +18,27 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <button class="button-menu-toggle">Menu</button>
+        <button id="button-menu-toggle">Menu</button>
     </header>
 
     <main class="contenedor-madre">
         <h1 class="bienvenida">Contacto</h1>
         <p class="h1-p">¡Contáctanos para cualquier consulta o solicitud de información!</p>
         <form id="MyForm">
-            <label for="nombre">Nombre</label>
-            <input type="text" placeholder="Nombre" id="nombre" name="nombre">
+            <section>
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Nombre" id="nombre" name="nombre">
+            </section>
 
-            <label for="apellido">Apellido</label>
-            <input type="text" placeholder="Apellido" id="apellido" name="apellido">
+            <section>
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Apellido" id="apellido" name="apellido">
+            </section>
 
-            <label for="email">Correo Electronico: </label>
-            <input type="email" placeholder="Email" id="email" name="email" required>
-
+            <section>
+                <label for="email">Correo Electronico: </label>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+            </section>
             <button class="sendButon" type="submit">Enviar</button>
         </form>
     </main>

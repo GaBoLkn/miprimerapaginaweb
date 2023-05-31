@@ -22,7 +22,7 @@ MyForm.addEventListener('submit', function(event){
     }
 });
 
-document.querySelector("button.button-menu-toggle")
+document.querySelector("#button-menu-toggle")
     .addEventListener("click", function() {
            document.querySelector(".nav-links").
-    classList.toggle("nav-links-responsive")})
+    classList.toggle(".nav-links-responsive")})
